@@ -1,4 +1,4 @@
-package com.question.four;
+package com.question.three;
 
 public class Numbers extends PrimeNumbers implements EvenOdd {
 	
