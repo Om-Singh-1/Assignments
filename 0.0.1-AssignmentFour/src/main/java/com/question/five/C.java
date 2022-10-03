@@ -6,4 +6,8 @@ public class C extends A{
 		System.out.println("Inside class C");
 	}
 	
+	void showMax(String max) {
+		System.out.println("Inside class C showMax" + max + " i.e C");
+	}
+	
 }

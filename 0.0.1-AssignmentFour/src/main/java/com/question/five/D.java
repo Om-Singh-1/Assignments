@@ -5,6 +5,7 @@ public class D extends B, C{					// Throws error since multiple inheritance dire
 	public static void main(String[] args) {
 		D d = new D();
 		d.show();								// Ambiguity (which show() method to call.)
+		d.showMax("ALbedo");					// Shows overloaded method of whoever class called.
 	}
 
 }
